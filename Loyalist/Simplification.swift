@@ -5,9 +5,15 @@ extension Term {
 		switch self.destructure() {
 		case let .Addition(.Coefficient(x), .Coefficient(y)):
 			return Recur(constant: x.value + y.value)
+			
+		case let .Addition(x, y):
+			return Recur(addition: x.simplify(), y.simplify())
 		
 		case let .Multiplication(.Coefficient(x), .Coefficient(y)):
 			return Recur(constant: x.value * y.value)
+			
+		case let .Multiplication(x, y):
+			return Recur(multiplication: x.simplify(), y.simplify())
 			
 		default: return self
 		}
