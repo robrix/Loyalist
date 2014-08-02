@@ -14,6 +14,7 @@
 		D45AB775198C799600094616 /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB774198C799600094616 /* Term.swift */; };
 		D45AB777198C872800094616 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB776198C872800094616 /* Box.swift */; };
 		D45AB779198C89B800094616 /* Simplification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB778198C89B800094616 /* Simplification.swift */; };
+		D45AB77B198C8A7500094616 /* Destructuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB77A198C8A7500094616 /* Destructuring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		D45AB774198C799600094616 /* Term.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
 		D45AB776198C872800094616 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		D45AB778198C89B800094616 /* Simplification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simplification.swift; sourceTree = "<group>"; };
+		D45AB77A198C8A7500094616 /* Destructuring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Destructuring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				D45AB772198C72F500094616 /* Coefficient.swift */,
 				D45AB774198C799600094616 /* Term.swift */,
 				D45AB778198C89B800094616 /* Simplification.swift */,
+				D45AB77A198C8A7500094616 /* Destructuring.swift */,
 				D45AB776198C872800094616 /* Box.swift */,
 				D45AB752198C69F700094616 /* Supporting Files */,
 			);
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D45AB777198C872800094616 /* Box.swift in Sources */,
+				D45AB77B198C8A7500094616 /* Destructuring.swift in Sources */,
 				D45AB773198C72F500094616 /* Coefficient.swift in Sources */,
 				D45AB779198C89B800094616 /* Simplification.swift in Sources */,
 				D45AB775198C799600094616 /* Term.swift in Sources */,
