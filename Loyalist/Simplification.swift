@@ -2,7 +2,7 @@
 
 extension Term {
 	func simplify() -> Recur {
-		switch self {
+		switch self.destructure() {
 		default: return self
 		}
 	}
