@@ -22,6 +22,7 @@
 		D45AB785198C9E6700094616 /* CGFloat+Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB784198C9E6700094616 /* CGFloat+Ring.swift */; };
 		D45AB789198CA1B700094616 /* NSView+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB788198CA1B700094616 /* NSView+Properties.swift */; };
 		D45AB78B198CA26A00094616 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB78A198CA26A00094616 /* Property.swift */; };
+		D45AB78D198CA5FB00094616 /* Equation+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB78C198CA5FB00094616 /* Equation+Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D45AB784198C9E6700094616 /* CGFloat+Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ring.swift"; sourceTree = "<group>"; };
 		D45AB788198CA1B700094616 /* NSView+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+Properties.swift"; sourceTree = "<group>"; };
 		D45AB78A198CA26A00094616 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		D45AB78C198CA5FB00094616 /* Equation+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Equation+Layout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				D45AB784198C9E6700094616 /* CGFloat+Ring.swift */,
 				D45AB78A198CA26A00094616 /* Property.swift */,
 				D45AB788198CA1B700094616 /* NSView+Properties.swift */,
+				D45AB78C198CA5FB00094616 /* Equation+Layout.swift */,
 				D45AB752198C69F700094616 /* Supporting Files */,
 			);
 			path = Loyalist;
@@ -257,6 +260,7 @@
 				D45AB779198C89B800094616 /* Simplification.swift in Sources */,
 				D45AB775198C799600094616 /* Term.swift in Sources */,
 				D45AB785198C9E6700094616 /* CGFloat+Ring.swift in Sources */,
+				D45AB78D198CA5FB00094616 /* Equation+Layout.swift in Sources */,
 				D45AB781198C960D00094616 /* Equation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
