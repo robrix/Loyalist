@@ -11,7 +11,7 @@ extension Term {
 	}
 }
 
-enum DestructuredTerm<Constant, Variable> {
+enum DestructuredTerm<Constant : Ring, Variable> {
 	case Coefficient(Box<Constant>)
 	case Indeterminate(Box<Variable>)
 	case Addition(Term<Constant, Variable>, Term<Constant, Variable>)
