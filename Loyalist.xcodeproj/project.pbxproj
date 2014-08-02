@@ -10,7 +10,7 @@
 		D45AB755198C69F700094616 /* Loyalist.h in Headers */ = {isa = PBXBuildFile; fileRef = D45AB754198C69F700094616 /* Loyalist.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D45AB75B198C69F700094616 /* Loyalist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45AB74F198C69F700094616 /* Loyalist.framework */; };
 		D45AB762198C69F700094616 /* LoyalistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB761198C69F700094616 /* LoyalistTests.swift */; };
-		D45AB773198C72F500094616 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB772198C72F500094616 /* Constant.swift */; };
+		D45AB773198C72F500094616 /* Coefficient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB772198C72F500094616 /* Coefficient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 		D45AB75A198C69F700094616 /* LoyalistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoyalistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45AB760198C69F700094616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D45AB761198C69F700094616 /* LoyalistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyalistTests.swift; sourceTree = "<group>"; };
-		D45AB772198C72F500094616 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D45AB772198C72F500094616 /* Coefficient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coefficient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				D45AB754198C69F700094616 /* Loyalist.h */,
-				D45AB772198C72F500094616 /* Constant.swift */,
+				D45AB772198C72F500094616 /* Coefficient.swift */,
 				D45AB752198C69F700094616 /* Supporting Files */,
 			);
 			path = Loyalist;
@@ -213,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D45AB773198C72F500094616 /* Constant.swift in Sources */,
+				D45AB773198C72F500094616 /* Coefficient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
