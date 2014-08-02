@@ -6,4 +6,6 @@ public protocol Ring {
 	
 	class var multiplicativeIdentity: Self { get }
 	func * (Self, Self) -> Self
+	
+	@prefix func - (Self) -> Self
 }
