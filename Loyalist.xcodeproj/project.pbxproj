@@ -18,6 +18,7 @@
 		D45AB77D198C8DC800094616 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB77C198C8DC800094616 /* Ring.swift */; };
 		D45AB77F198C93A900094616 /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB77E198C93A900094616 /* Relation.swift */; };
 		D45AB781198C960D00094616 /* Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB780198C960D00094616 /* Equation.swift */; };
+		D45AB783198C995D00094616 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB782198C995D00094616 /* Operators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D45AB77C198C8DC800094616 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
 		D45AB77E198C93A900094616 /* Relation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relation.swift; sourceTree = "<group>"; };
 		D45AB780198C960D00094616 /* Equation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Equation.swift; sourceTree = "<group>"; };
+		D45AB782198C995D00094616 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				D45AB77C198C8DC800094616 /* Ring.swift */,
 				D45AB778198C89B800094616 /* Simplification.swift */,
 				D45AB77A198C8A7500094616 /* Destructuring.swift */,
+				D45AB782198C995D00094616 /* Operators.swift */,
 				D45AB776198C872800094616 /* Box.swift */,
 				D45AB752198C69F700094616 /* Supporting Files */,
 			);
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45AB783198C995D00094616 /* Operators.swift in Sources */,
 				D45AB777198C872800094616 /* Box.swift in Sources */,
 				D45AB77D198C8DC800094616 /* Ring.swift in Sources */,
 				D45AB77B198C8A7500094616 /* Destructuring.swift in Sources */,
