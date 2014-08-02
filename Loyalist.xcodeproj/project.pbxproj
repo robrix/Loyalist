@@ -11,6 +11,7 @@
 		D45AB75B198C69F700094616 /* Loyalist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45AB74F198C69F700094616 /* Loyalist.framework */; };
 		D45AB762198C69F700094616 /* LoyalistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB761198C69F700094616 /* LoyalistTests.swift */; };
 		D45AB773198C72F500094616 /* Coefficient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB772198C72F500094616 /* Coefficient.swift */; };
+		D45AB775198C799600094616 /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB774198C799600094616 /* Term.swift */; };
 		D45AB777198C872800094616 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB776198C872800094616 /* Box.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		D45AB760198C69F700094616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D45AB761198C69F700094616 /* LoyalistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyalistTests.swift; sourceTree = "<group>"; };
 		D45AB772198C72F500094616 /* Coefficient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coefficient.swift; sourceTree = "<group>"; };
+		D45AB774198C799600094616 /* Term.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
 		D45AB776198C872800094616 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 			children = (
 				D45AB754198C69F700094616 /* Loyalist.h */,
 				D45AB772198C72F500094616 /* Coefficient.swift */,
+				D45AB774198C799600094616 /* Term.swift */,
 				D45AB776198C872800094616 /* Box.swift */,
 				D45AB752198C69F700094616 /* Supporting Files */,
 			);
@@ -218,6 +221,7 @@
 			files = (
 				D45AB777198C872800094616 /* Box.swift in Sources */,
 				D45AB773198C72F500094616 /* Coefficient.swift in Sources */,
+				D45AB775198C799600094616 /* Term.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
