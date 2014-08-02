@@ -4,3 +4,9 @@ struct Property {
 	let item: NSView?
 	let attribute: NSLayoutAttribute
 }
+
+extension Property : NilLiteralConvertible {
+	static func convertFromNilLiteral() -> Property {
+		return Property(item: nil, attribute: .NotAnAttribute)
+	}
+}
