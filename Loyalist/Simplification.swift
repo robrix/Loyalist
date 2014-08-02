@@ -13,3 +13,9 @@ extension Term {
 		}
 	}
 }
+
+extension Equation {
+	func simplify() -> Equation<Constant, Variable> {
+		return Equation(y: y.simplify(), relation: relation, x: x.simplify())
+	}
+}
